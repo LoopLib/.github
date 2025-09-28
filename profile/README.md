@@ -63,26 +63,5 @@ It’s built with **React**, **Flask**, **Firebase Authentication**, and **AWS S
 
 ---
 
-## 📦 Installation & Setup
-
-> Requires **Python 3.9+** and **Node 18+**.
-
-### 1️⃣ Clone the Repositories
-LoopLib is organized into multiple repos:
-- **Frontend:** `https://github.com/<your-org>/looplib-frontend`
-- **Backend:** `https://github.com/<your-org>/looplib-backend`
-- **Genre Classifier:** `https://github.com/<your-org>/looplib-genre-classifier`
-- (Optional) Organization-level meta-repo.
-
-```bash
-git clone https://github.com/<your-org>/looplib-frontend.git
-git clone https://github.com/<your-org>/looplib-backend.git
-git clone https://github.com/<your-org>/looplib-genre-classifier.git
-```
-cd looplib-backend
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-
 flask run
 
